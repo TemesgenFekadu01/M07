@@ -1,0 +1,32 @@
+Animal
+----------
++ name: string
++ species: string
++ habitat: string
+----------
++ move()
++ sleep()
++ eat()
+
+Book
+----------
++ name: string
++ author: string
++ genre: string
+----------
++ open()
++ goTo_pg()
++ close()
+
+
+Vehicle
+----------
++ year: integer
++ make: string
++ model: string
++ color: string
+----------
++ turnOn()
++ gas()
++ _break()
++ turnOff()
