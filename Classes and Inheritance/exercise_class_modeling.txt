@@ -1,0 +1,118 @@
+Animal
+------------------------
++ name: string
++ species: string
++ habitat: string
+------------------------
++ move()
++ sleep()
++ eat()
+
+
+Fish(Animal)
+------------------------
++ color: string
++ weight: float
++ length: float
+------------------------
++ swim()
+
+
+Snake(Animal)
+------------------------
++ color: string
++ length: float
++ venomous: boolean
+------------------------
++ bite()
+
+
+Person(Animal)
+------------------------
++ height: float
++ weight: float
++ occupation: string
+------------------------
++ talk()
+
+
+
+Book
+------------------------
++ name: string
++ author: string
++ genre: string
+------------------------
++ open()
++ goTo_pg()
++ close()
+
+
+Textbook(Book)
+------------------------
++ subject: string
++ edition: integer
+------------------------
++ goTo_section()
+
+
+AddressBook(Book)
+------------------------
++ location: string
++ year: integer
+------------------------
++ findName()
+
+
+
+Vehicle
+------------------------
++ name: string
++ _type: string
++ environment: string
+------------------------
++ move()
+
+
+Car(Vehicle)
+------------------------
++ year: integer
++ make: string
++ model: string
++ color: string
+------------------------
++ turnOn()
++ gas()
++ turn()
++ _break()
++ turnOff()
+
+
+Bicycle(Vehicle)
+------------------------
++ bikeType: string
++ gearType: string
++ color: string
+------------------------
++ pedal()
++ turn()
++ _break()
+
+
+Boat(Vehicle)
+------------------------
++ size: string
++ boatType: string
+------------------------
++ dock()
++ steer()
++ undock()
+
+Hot-Air Balloon(Vehicle)
+------------------------
++ size: string
++ color: string
+------------------------
++ takeOff()
++ gas()
++ land()
